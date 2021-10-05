@@ -1,0 +1,42 @@
+{
+  "name": "nazububu/sum",
+  "description": "Simple PHP package for add two numbers",
+  "license": "MIT",
+  "keywords": [
+    "php",
+    "sum"
+  ],
+  "authors": [
+    {
+      "name": "Nazar Tertyshnyi",
+      "email": "nazar.tertyshny@gmail.com"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/nazububu/sum/issues",
+    "source": "https://github.com/nazububu/sum"
+  },
+  "require": {
+    "php": "^7.1"
+  },
+  "require-dev": {
+    "mockery/mockery": "^1.0",
+    "phpunit/phpunit": "^9.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "Nazububu\\Sum\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Nazububu\\Sum\\Tests\\": "tests"
+    }
+  },
+  "config": {
+    "preferred-install": "dist",
+    "sort-packages": true
+  },
+  "minimum-stability": "stable",
+  "prefer-stable": true
+}
