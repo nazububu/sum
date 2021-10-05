@@ -27,7 +27,7 @@ Or manually update `require` block of `composer.json` and run `composer update`.
 
 ## Using
 
-```
+```php
 use Nazububu\Sum\Sum;
 
 print(Sum::handle(1, 1)); // 2
@@ -37,7 +37,7 @@ print(Sum::handle(1, 1)); // 2
 
 You can run tests with command
 
-```
+```bash
 vendor/bin/phpunit tests/
 ```
 
