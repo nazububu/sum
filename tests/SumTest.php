@@ -20,6 +20,8 @@ class SumTest extends TestCase
      */
     public function testAddTwoNumbers(): void
     {
-        $this->assertEquals(2, Sum::calculate(1, 1));
+        $sum = new Sum;
+
+        $this->assertEquals(2, $sum->calculate(1, 1));
     }
 }
