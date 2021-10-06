@@ -25,7 +25,8 @@ Or manually update `require` block of `composer.json` and run `composer update`.
 ```php
 use Nazububu\Sum\Sum;
 
-echo Sum::calculate(1, 1); // 2
+$sum = new Sum;
+echo $sum->calculate(1, 1); // 2
 ```
 
 ## Testing
