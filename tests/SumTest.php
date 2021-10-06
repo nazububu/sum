@@ -1,6 +1,6 @@
 <?php
 
-namespace Nazububu\Tests;
+namespace Nazububu\Sum\Tests;
 
 use PHPUnit\Framework\TestCase;
 
@@ -20,6 +20,6 @@ class SumTest extends TestCase
      */
     public function testAddTwoNumbers(): void
     {
-        $this->assertEquals(2, Sum::handle(1, 1));
+        $this->assertEquals(2, Sum::calculate(1, 1));
     }
 }
