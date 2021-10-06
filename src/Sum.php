@@ -17,7 +17,7 @@ class Sum
      *
      * @return int
      */
-    public static function calculate(int $firstNumber, int $secondNumber): int
+    public function calculate(int $firstNumber, int $secondNumber): int
     {
         return $firstNumber + $secondNumber;
     }
