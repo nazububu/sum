@@ -12,13 +12,20 @@ class Sum
     /**
      * Handling the addition of two numbers
      *
-     * @param int $firstNumber
-     * @param int $secondNumber
+     * @param  int  $firstNumber
+     * @param  int  $secondNumber
      *
      * @return int
+     * @throws SumException
      */
     public function calculate(int $firstNumber, int $secondNumber): int
     {
-        return $firstNumber + $secondNumber;
+        $result = $firstNumber + $secondNumber;
+
+        if (is_float($result)) {
+            throw new SumException();
+        }
+
+        return $result;
     }
 }
